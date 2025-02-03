@@ -28,5 +28,9 @@ print(s2, id(s2))
 print(s1[0]) #H
 print(s1[-1])
 
-print('s1 ID of H',)
+print('s1 ID of H',id(s1[0]))
+print("s1 id of o", id(s1[-1 ]))
+
+print('s2 ID of w:', id(s2[0]))
+print('s2 ID of o: ', id(s2[1]))
 
